@@ -61,7 +61,7 @@ The program outputs:
 - **Paulo Yamagishi**
 - **Gustavo Mariz** ([GitHub Profile](https://github.com/gustavomariz))
 
-## 📜 License
+## License
 
 This project is open-source and distributed under the **MIT License**.
 
