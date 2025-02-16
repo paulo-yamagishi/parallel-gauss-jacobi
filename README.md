@@ -1,17 +1,17 @@
 # Parallel Gauss-Jacobi Solver
 
-## 📌 Project Description
+## Project Description
 
 This project implements the **Gauss-Jacobi method** for solving systems of linear equations using **parallel programming** with POSIX threads (`pthread`). It compares the performance of the sequential and parallel implementations to analyze speedup and efficiency.
 
-## 🏗 Features
+## Features
 
 - **Sequential and Parallel Implementations**: Two versions of the Gauss-Jacobi algorithm for performance comparison.
 - **Dynamic Matrix and Vector Generation**: Generates random matrices with diagonal dominance.
 - **Multi-threaded Computation**: Utilizes `pthread` to distribute computation across multiple threads.
 - **Performance Analysis**: Measures iteration count, execution time, speedup, and efficiency.
 
-## ⚙️ Installation & Compilation
+## Installation & Compilation
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ To compile the program, run:
 gcc -o gauss_jacobi_parallel parallel_Gauss_Jacobi.c -pthread -lm
 ```
 
-## 🚀 Usage
+## Usage
 
 Run the program with:
 
@@ -47,7 +47,7 @@ Where:
 ./gauss_jacobi_parallel 1000 4 0.0001 42
 ```
 
-## 📊 Output
+## Output
 
 The program outputs:
 
@@ -56,7 +56,7 @@ The program outputs:
 - Distance between sequential and parallel solutions
 - Speedup and efficiency of the parallel implementation
 
-## 👨‍💻 Authors
+## Authors
 
 - **Paulo Yamagishi**
 - **Gustavo Mariz** ([GitHub Profile](https://github.com/gustavomariz))
